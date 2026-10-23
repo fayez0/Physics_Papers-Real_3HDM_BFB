@@ -1,0 +1,28 @@
+{
+  "verified": true,
+  "lower_bound": "43/51",
+  "original_real_variables": 12,
+  "quartic_monomials": 108,
+  "block_orders": [
+    18,
+    12,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "sphere_multiplier_power": 0,
+  "block_ranks": [
+    2,
+    0,
+    8,
+    8,
+    8,
+    8,
+    2,
+    1
+  ],
+  "independent_of_branch_theorem": true
+}

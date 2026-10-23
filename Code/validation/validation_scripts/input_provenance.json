@@ -1,0 +1,13 @@
+{
+  "seed": 2026101606,
+  "rows": 398,
+  "random_rows": 240,
+  "charged_base_rows": 32,
+  "solver_centered_shift_rows": 96,
+  "reference_shift_rows": 30,
+  "reference_families": 3,
+  "scaled_reference_variants": 6,
+  "shifted_rows_independent_landscapes": false,
+  "reviewer_data_used": false,
+  "sha256": "6599b38c40632f04985676f1b1ad0e3aa70f3d42ce0e41087f58e7e73dc5ab9b"
+}

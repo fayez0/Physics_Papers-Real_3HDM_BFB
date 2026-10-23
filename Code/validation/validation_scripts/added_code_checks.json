@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "gradient_cases": 24,
+  "maximum_finite_difference_residual": 9.412304269318383e-11,
+  "phase_sign_and_zero_patterns": 27,
+  "examples": [
+    {
+      "id": "charged_complex",
+      "minimum": "-7/60",
+      "route": "exact_regular"
+    },
+    {
+      "id": "singular_radial_positive",
+      "minimum": "43/51",
+      "route": "exact_regular"
+    },
+    {
+      "id": "charged_flat",
+      "minimum": "0",
+      "route": "exact_infinitesimal_fallback"
+    },
+    {
+      "id": "charged_nearflat_positive",
+      "minimum": "1/100000000000000000000",
+      "route": "exact_infinitesimal_fallback"
+    },
+    {
+      "id": "charged_nearflat_negative",
+      "minimum": "-1/100000000000000000000",
+      "route": "exact_infinitesimal_fallback"
+    }
+  ],
+  "rejected_inputs": [
+    "binary_float",
+    "bad_rational",
+    "missing_key",
+    "extra_key",
+    "wrong_length"
+  ],
+  "python_optimization": false
+}

@@ -1,0 +1,153 @@
+{
+  "inputs": 398,
+  "starts": 15920,
+  "completed_inputs": 398,
+  "comparisons": {
+    "agreement_at_stated_tolerance": 398
+  },
+  "cohorts": {
+    "generic": {
+      "inputs": 96,
+      "max_abs_difference": 1.4988010832439613e-15,
+      "max_scaled_difference": 4.440892098500626e-16,
+      "classification_counts": {
+        "quartic_unbounded_below": 94,
+        "strict_quartic_positive": 1,
+        "quartic_nonnegative_with_flat_direction": 1
+      },
+      "branch_counts": {
+        "neutral_collinear": 90,
+        "charged_split": 3,
+        "charged_orthogonal_pair": 3
+      }
+    },
+    "vanishing_phase": {
+      "inputs": 48,
+      "max_abs_difference": 1.9984014443252818e-15,
+      "max_scaled_difference": 3.3306690738754696e-16,
+      "classification_counts": {
+        "quartic_unbounded_below": 48
+      },
+      "branch_counts": {
+        "neutral_collinear": 46,
+        "charged_orthogonal_pair": 1,
+        "charged_split": 1
+      }
+    },
+    "singular_overlap": {
+      "inputs": 48,
+      "max_abs_difference": 1.8651746813702627e-15,
+      "max_scaled_difference": 4.440892098500626e-16,
+      "classification_counts": {
+        "quartic_unbounded_below": 47,
+        "strict_quartic_positive": 1
+      },
+      "branch_counts": {
+        "neutral_collinear": 47,
+        "charged_orthogonal_pair": 1
+      }
+    },
+    "singular_radial": {
+      "inputs": 24,
+      "max_abs_difference": 1.3877787807814457e-15,
+      "max_scaled_difference": 1.3877787807814457e-16,
+      "classification_counts": {
+        "strict_quartic_positive": 22,
+        "quartic_unbounded_below": 2
+      },
+      "branch_counts": {
+        "neutral_collinear": 24
+      }
+    },
+    "scale_separated": {
+      "inputs": 24,
+      "max_abs_difference": 1.0156317075228247e-06,
+      "max_scaled_difference": 3.723982927583691e-13,
+      "classification_counts": {
+        "quartic_unbounded_below": 23,
+        "strict_quartic_positive": 1
+      },
+      "branch_counts": {
+        "neutral_collinear": 23,
+        "charged_split": 1
+      }
+    },
+    "sharp_reference_shift": {
+      "inputs": 30,
+      "max_abs_difference": 5.995239402105882e-16,
+      "max_scaled_difference": 4.9873299934333204e-17,
+      "classification_counts": {
+        "quartic_unbounded_below": 12,
+        "quartic_nonnegative_with_flat_direction": 6,
+        "strict_quartic_positive": 12
+      },
+      "branch_counts": {
+        "neutral_collinear": 10,
+        "charged_full_triangle": 10,
+        "charged_orthogonal_pair": 10
+      }
+    },
+    "charged_favoring_base": {
+      "inputs": 32,
+      "max_abs_difference": 2.1094237467877974e-15,
+      "max_scaled_difference": 1.1102230246251565e-16,
+      "classification_counts": {
+        "strict_quartic_positive": 32
+      },
+      "branch_counts": {
+        "charged_full_collinear": 20,
+        "charged_full_triangle": 4,
+        "charged_split": 8
+      }
+    },
+    "solver_centered_shift": {
+      "inputs": 96,
+      "max_abs_difference": 7.070793424722957e-16,
+      "max_scaled_difference": 5.593705683385298e-17,
+      "classification_counts": {
+        "quartic_unbounded_below": 32,
+        "quartic_nonnegative_with_flat_direction": 32,
+        "strict_quartic_positive": 32
+      },
+      "branch_counts": {
+        "charged_full_collinear": 60,
+        "charged_full_triangle": 12,
+        "charged_split": 24
+      }
+    }
+  },
+  "optimizer_non_success": 9144,
+  "optimizer_exceptions": 0,
+  "exact_route_agreements": 398,
+  "routes": {
+    "exact_infinitesimal_fallback": {
+      "inputs": 116,
+      "median_dispatch_seconds": 0.2671006824999722,
+      "median_deformed_seconds": 0.2821734589999778,
+      "median_paired_deformed_over_dispatch": 1.0047787517438156
+    },
+    "exact_regular": {
+      "inputs": 282,
+      "median_dispatch_seconds": 0.0988056665000272,
+      "median_deformed_seconds": 0.35608599699997967,
+      "median_paired_deformed_over_dispatch": 3.3367374288566
+    }
+  },
+  "independent_sharp_reference_rows": 30,
+  "solver_centered_rows": 96,
+  "classification_counts": {
+    "quartic_unbounded_below": 258,
+    "strict_quartic_positive": 101,
+    "quartic_nonnegative_with_flat_direction": 39
+  },
+  "branch_counts": {
+    "neutral_collinear": 240,
+    "charged_split": 37,
+    "charged_orthogonal_pair": 15,
+    "charged_full_triangle": 26,
+    "charged_full_collinear": 80
+  },
+  "numeric_is_global_certificate": false,
+  "reviewer_report_rows_used": 0,
+  "timing_caveat": "In-process, imports excluded, four concurrent workers; not a matched StableWein runtime comparison."
+}
